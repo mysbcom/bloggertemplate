@@ -13,7 +13,7 @@ var today = new Date();
 
 
     var today = dd+mm+yy;
-    $('a.link').each(function() {
+    $('a.btn').each(function() {
         var url = $(this).attr('href');
         if (url.indexOf("?") >= 0) {
              $(this).attr("href",url+today+".PDF");  
